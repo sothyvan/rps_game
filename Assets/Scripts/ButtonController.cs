@@ -17,4 +17,8 @@ public class ButtonController : MonoBehaviour
     {
         Debug.Log(gameObject.name + " clicked " );
     }
+    public void OnMouseExit(GameObject gameObject)
+    {
+        Debug.Log(gameObject.name + " mouse exit");
+    }
 }
